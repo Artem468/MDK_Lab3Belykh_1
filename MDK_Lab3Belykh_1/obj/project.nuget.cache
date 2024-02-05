@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "nPkgLYLbLLgUmWeeu1nu867TNNkLzTm6eU1jD59WHL9fvSQw196Tp4ZOq8QguOnhkXAttNlctj7BEhiFH0XtKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Артём\\Desktop\\Csharp\\MDK_Lab3Belykh_1\\MDK_Lab3Belykh_1\\MDK_Lab3Belykh_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Артём\\.nuget\\packages\\materialdesigncolors\\2.1.0\\materialdesigncolors.2.1.0.nupkg.sha512",
+    "C:\\Users\\Артём\\.nuget\\packages\\materialdesignthemes\\2.5.1\\materialdesignthemes.2.5.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MaterialDesignThemes 2.5.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MaterialDesignThemes",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
+}

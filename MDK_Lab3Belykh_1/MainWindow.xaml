@@ -1,0 +1,47 @@
+﻿<Window x:Class="MDK_Lab3Belykh_1.MainWindow"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MDK_Lab3Belykh_1"
+        mc:Ignorable="d"
+        Title="Lab 3 Belykh" Height="470" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="10" HorizontalAlignment="Center">Введите время в формате ЧЧ:ММ:СС</Label>
+        <TextBox Name="TimeField" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="0, 0, 10, 10"  FontSize="24"
+                 TextAlignment="Center">
+        </TextBox>
+
+        <Button Click="TimeAddOneSec" Margin="5" Grid.Column="0" Grid.Row="2" Content="Добавить 1 сек" />
+        <Button Click="HowManySeconds" Margin="5" Grid.Column="1" Grid.Row="2" Content="Сколько секунд" />
+        <Button Click="HowManyMinutes" Margin="5" Grid.Column="2" Grid.Row="2" Content="Сколько минут" />
+        <Button Click="AddSeconds" Margin="5" Grid.Column="0" Grid.Row="3" Content="Добавить секунды" />
+        <TextBox Name="AddSecondField" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3" Margin="5" Text="0"  FontSize="24"/>
+        <Button Click="SubSeconds" Margin="5" Grid.Column="0" Grid.Row="4" Content="Вычесть секунды" />
+        <TextBox Name="SubSecondField" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4" Margin="5" Text="0"  FontSize="24"/>
+        <Button Click="SubTime" Margin="5" Grid.Column="0" Grid.Row="5" Content="Вычесть время" />
+        <TextBox Name="SubTimeField" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="5" Margin="5" Text="00:00:00"  FontSize="24"/>
+        <TextBox Name="СompareTimeField" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="6" Margin="5" Text="00:00:00"  FontSize="24"/>
+        <Button Click="IsMoreTime" Margin="5" Grid.Column="0" Grid.Row="7" Content="Больше?" />
+        <Button Click="IsLessTime" Margin="5" Grid.Column="1" Grid.Row="7" Content="Меньше?" />
+        <Button Click="IsEqualTime" Margin="5" Grid.Column="2" Grid.Row="7" Content="Равно?" />
+
+    </Grid>
+</Window>
